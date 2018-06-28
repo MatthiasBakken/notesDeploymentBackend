@@ -1,16 +1,12 @@
 {
   "name": "back-end-project-week",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "repository": "https://github.com/MatthiasBakken/back-end-project-week.git",
   "author": "Matthias Bakken <matthias.bakken@gmail.com>",
   "license": "MIT",
-  "devDependencies": {
-    "nodemon": "^1.17.5"
-  },
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.16.3",
