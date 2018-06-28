@@ -3,6 +3,7 @@ const helmet = require('helmet');
 const cors = require('cors');
 const config = require('../config');
 const corsOptions = {
+  origin: "*",
   credentials: true
 };
 
